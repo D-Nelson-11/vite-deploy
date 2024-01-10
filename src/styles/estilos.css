@@ -64,4 +64,18 @@ section {
         bottom: 200px;
         left: 150px;
     }
+
+    .image-container:hover {
+        cursor: pointer;
+        width: 300px;
+        opacity: 1;
+        filter: contrast(120%);
+    }
+    
+    .image-container:hover img {
+        cursor: pointer;
+        width: 300px;
+        opacity: 1;
+        filter: contrast(120%);
+    }
 }
