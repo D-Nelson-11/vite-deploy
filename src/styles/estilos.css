@@ -39,7 +39,7 @@
 }
 
 /* Responsive media query */
-@media (max-width: 490px) {
+@media (max-width: 498px) {
   .contenedor{
     width: 100%;
   }
