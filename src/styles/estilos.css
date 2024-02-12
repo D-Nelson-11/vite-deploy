@@ -39,33 +39,34 @@
 }
 
 /* Responsive media query */
-@media (max-width: 768px) {
+@media (max-width: 490px) {
   .contenedor{
     width: 100%;
   }
 
   .carta{
-    width: 90%;
+    width: 100%;
+    height: 300px;
   }
 
   .left{
-    transform: rotate(35.4deg);
+    transform: rotate(44.5deg);
     position: absolute;
     border-bottom:1px solid #ccc;
     top:0;
 }
 
 .right{
-    transform: rotate(-35.4deg);
+    transform: rotate(-44.5deg);
     position: absolute;
     border-bottom:1px solid #ccc;;
     top:0;
-    left: 320px;
+    left: 245px;
 }
 .icono{
     position:absolute;
-    left: 260px;
-    top: 145px;
+    left: 180px;
+    top: 110px;
     font-size: 120px;
 }
 }
