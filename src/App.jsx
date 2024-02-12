@@ -1,13 +1,18 @@
 import React from 'react'
-import Imagen from './components/Imagen'
 import { Container,Row } from 'react-bootstrap'
 import { Toaster } from 'sonner'
+import './styles/estilos.css'
+import { FaHeart } from "react-icons/fa";
 
 export function App() {
   return (
-    <Container style={{marginTop:"100px", maxWidth:"900px"}}>
-       <Imagen/>
+    <div className='contenedor'>
+      <div className="carta">
+        <div className='left'></div>
+        <div className='right'></div>
+        <FaHeart className='icono'/>
+      </div>
        <Toaster position='top-right' closeButton/>
-    </Container>
+    </div>
   )
 }

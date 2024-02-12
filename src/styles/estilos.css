@@ -1,81 +1,71 @@
-section {
-    margin-left: 70px;
-    display: flex;
+.contenedor{
     width: 100%;
+}
+
+.carta{
+    width:60%;
     height: 400px;
-    flex-wrap: wrap;
-}
-
-.image-container {
     position: relative;
-    width: 15%;
-    height: 100%;
-    overflow: hidden;
-    margin: 5px;
-    transition: all 0.5s ease;
+    background-color: #fff;
+    margin: 100px auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.image-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.8;
-    transition: all 0.5s ease;
-}
-
-.image-container:hover {
-    cursor: pointer;
-    width: 300px;
-    opacity: 1;
-    filter: contrast(120%);
-}
-
-.image-container:hover img {
-    cursor: pointer;
-    width: 300px;
-    opacity: 1;
-    filter: contrast(120%);
-}
-
-.image-text {
+.left{
+    width: 50%;
+    height: 100px;
+    transform: rotate(25.4deg);
     position: absolute;
-    bottom: 150px;
-    left: 35px;
-    color: #fff;
-    font-size: 100px;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-bottom:1px solid #ccc;
+    top:0;
 }
+
+.right{
+    width: 50%;
+    height: 100px;
+    transform: rotate(-25.4deg);
+    position: absolute;
+    border-bottom:1px solid #ccc;
+    top:0;
+    left: 435px;
+}
+.icono{
+    position:absolute;
+    left: 390px;
+    top: 145px;
+    color: #ce181e;
+    font-size: 100px;
+}
+
 /* Responsive media query */
 @media (max-width: 768px) {
-    section {
-        margin-left: 0;
-        height: auto;
-    }
+  .contenedor{
+    width: 100%;
+  }
 
-    .image-container {
-        width: 100%;
-        height: auto;
-        margin: 10px 0;
-    }
+  .carta{
+    width: 90%;
+  }
 
-    .image-text {
-        font-size: 150px;
-        bottom: 200px;
-        left: 150px;
-    }
+  .left{
+    transform: rotate(35.4deg);
+    position: absolute;
+    border-bottom:1px solid #ccc;
+    top:0;
+}
 
-    .image-container:hover {
-        cursor: pointer;
-        width: 300px;
-        opacity: 1;
-        filter: contrast(120%);
-    }
-    
-    .image-container:hover img {
-        cursor: pointer;
-        width: 300px;
-        opacity: 1;
-        filter: contrast(120%);
-    }
+.right{
+    transform: rotate(-35.4deg);
+    position: absolute;
+    border-bottom:1px solid #ccc;;
+    top:0;
+    left: 320px;
+}
+.icono{
+    position:absolute;
+    left: 260px;
+    top: 145px;
+    font-size: 120px;
+}
 }
