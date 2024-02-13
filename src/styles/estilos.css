@@ -45,28 +45,29 @@
   }
 
   .carta{
-    width: 100%;
+    width: 95%;
     height: 300px;
   }
 
   .left{
-    transform: rotate(44.5deg);
+    transform: rotate(46.5deg);
     position: absolute;
     border-bottom:1px solid #ccc;
-    top:0;
+    width: 228px;
+
 }
 
 .right{
-    transform: rotate(-44.5deg);
+    transform: rotate(-46.5deg);
     position: absolute;
     border-bottom:1px solid #ccc;;
-    top:0;
-    left: 245px;
+    left: 160px;
+    width: 228px;
 }
 .icono{
     position:absolute;
-    left: 180px;
+    left: 145px;
     top: 110px;
-    font-size: 120px;
+    font-size: 100px;
 }
 }
