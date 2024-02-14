@@ -9,7 +9,7 @@
     background-color: #fff;
     margin: 100px auto;
     border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 .left{
@@ -50,24 +50,26 @@
   }
 
   .left{
-    transform: rotate(46.5deg);
+    transform: rotate(35.5deg);
     position: absolute;
     border-bottom:1px solid #ccc;
     width: 228px;
+    top: -30px;
 
 }
 
 .right{
-    transform: rotate(-46.5deg);
+    transform: rotate(-35.5deg);
     position: absolute;
     border-bottom:1px solid #ccc;;
     left: 160px;
     width: 228px;
+    top: -30px;
 }
 .icono{
     position:absolute;
     left: 145px;
-    top: 110px;
+    top: 70px;
     font-size: 100px;
 }
 }

@@ -9,13 +9,15 @@
     justify-content: center;
     align-items: center; /* Alinea el contenido vertical y horizontalmente */
     z-index: 1;
+    animation: slide-up 1s ease; /* Animación para que el modal aparezca desde abajo */
+
   }
   
   .modal-content {
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
-    animation: slide-up 0.3s ease; /* Animación para que el modal aparezca desde abajo */
+    animation: slide-up 2s ease; /* Animación para que el modal aparezca desde abajo */
   }
   
   @keyframes slide-up {
