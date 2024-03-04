@@ -4,3 +4,13 @@ body{
     box-sizing: border-box;
     background-color: #F2F2F2;
 }
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+  }
+  
+  .animated-icon {
+    animation: bounce 1s infinite;
+  }
