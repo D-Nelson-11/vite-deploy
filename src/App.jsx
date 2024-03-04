@@ -25,7 +25,7 @@ const ConfettiButton = () => {
       <Modal.Header closeButton>
         <Modal.Title>Cosiiiii</Modal.Title>
       </Modal.Header>
-      <Modal.Body>¡Felicidades!, usted se ganó <strong>$50</strong> en <a href="https://us.shein.com/?url_from=usgooglebrandshein_srsa_Shein01_20210124&cid=370313608&setid=25652838688&adid=494298278806&pf=GOOGLE&gad_source=1&gclid=CjwKCAiA3JCvBhA8EiwA4kujZpB5wzSHDD7TaWvZfJiM5gEB8mA9LLUpEa2ETBK6z1sVM2bujP4bxxoCyfEQAvD_BwE"> Shein</a> por ser tan preciosa🥺</Modal.Body>
+      <Modal.Body>¡Felicidades!, usted se ganó <strong>$50</strong> en <a href="https://us.shein.com/?url_from=usgooglebrandshein_srsa_Shein01_20210124&cid=370313608&setid=25652838688&adid=494298278806&pf=GOOGLE&gad_source=1&gclid=CjwKCAiA3JCvBhA8EiwA4kujZpB5wzSHDD7TaWvZfJiM5gEB8mA9LLUpEa2ETBK6z1sVM2bujP4bxxoCyfEQAvD_BwE"> Shein</a> por ser tan preciosa🥺, porfavor haga su carrito y me lo manda a whatsapp</Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={() => setShowModal(false)}>
           Okis cosi
